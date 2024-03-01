@@ -65,3 +65,4 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b9522d92-5a92-4060-a961-44eba8100f3b/deploy-status)](https://app.netlify.com/sites/eldhokpaul/deploys)
