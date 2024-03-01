@@ -4,7 +4,7 @@
     <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
       <!-- User Info -->
       <GPanel span="4" custom>
-        <div class="bg-gray-200 rounded-tl-xl rounded-br-xl w-50 h-full">
+        <div class="bg-gray-200 rounded-tl-xl rounded-br-xl w-50 h-full hidden lg:block">
           <img
             class="rounded-tl-xl rounded-br-xl w-50 h-60 object-cover grayscale"
             src="@/assets/images/eldho_profile.png"
