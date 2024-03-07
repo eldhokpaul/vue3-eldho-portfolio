@@ -63,7 +63,7 @@
       </GPanel>
 
       <!-- About -->
-      <GPanel to="#" title="About Me" subtitle="">
+      <GPanel to="About" title="About Me" subtitle="">
         <div>
           <img class="" src="@/assets/images/about_me.png" alt="about" />
         </div>

@@ -1,30 +1,3 @@
-<script lang="ts" setup>
-import LinkIcon from '@/assets/images/link-icon.svg'
-import SparkleIcon from '@/assets/images/sparkle-icon.png'
-
-const props = defineProps({
-  to: String,
-  span: {
-    type: String,
-    default: '1'
-  },
-  title: {
-    type: String
-  },
-  subtitle: {
-    type: String
-  },
-  custom: {
-    type: Boolean,
-    default: false
-  },
-  sparkle: {
-    type: Boolean,
-    default: false
-  }
-})
-</script>
-
 <template>
   <div
     class="relative col-span-2 group border border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 flex gap-6"
@@ -53,11 +26,36 @@ const props = defineProps({
 
     <!-- Link Icon -->
     <div v-if="props.to" class="absolute bottom-6 right-6 opacity-30 group-hover:opacity-100">
-      <a href="#">
+      <router-link :to="props.to">
         <img :src="LinkIcon" alt="" />
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
 
-<style lang="scss"></style>
+<script lang="ts" setup>
+import LinkIcon from '@/assets/images/link-icon.svg'
+import SparkleIcon from '@/assets/images/sparkle-icon.png'
+
+const props = defineProps({
+  to: String,
+  span: {
+    type: String,
+    default: '1'
+  },
+  title: {
+    type: String
+  },
+  subtitle: {
+    type: String
+  },
+  custom: {
+    type: Boolean,
+    default: false
+  },
+  sparkle: {
+    type: Boolean,
+    default: false
+  }
+})
+</script>

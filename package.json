@@ -16,11 +16,13 @@
   },
   "dependencies": {
     "@kalimahapps/vue-icons": "^1.4.0",
+    "@mdi/font": "^7.4.47",
     "iconoir-vue": "^6.8.0",
     "pinia": "^2.1.3",
     "vue": "^3.3.4",
     "vue-number-animation": "^1.1.2",
-    "vue-router": "^4.2.2"
+    "vue-router": "^4.2.2",
+    "vuetify": "^3.5.8"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
