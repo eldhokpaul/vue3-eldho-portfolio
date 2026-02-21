@@ -44,7 +44,6 @@
 
           <DeVuetifyOriginal class="text-6xl text-red-500" />
 
-          <DeTailwindcssPlain class="text-6xl text-red-500" />
 
           <DeHtml5PlainWordmark class="text-6xl text-red-500" />
 
@@ -74,14 +73,14 @@
         </div>
       </GPanel> -->
 
-      <GPanel custom span="2" sparkle  class="items-end">
+      <!-- <GPanel custom span="2" sparkle  class="items-end">
         <div>
           <div class="text-5xl text-white">
             Let's<br />
             work <span class="text-blue-600">together</span>
           </div>
         </div>
-      </GPanel>
+      </GPanel> -->
       <!-- </div>
       </div> -->
 
@@ -159,21 +158,17 @@
 </template>
 <script setup lang="ts">
 import GPanel from '@/components/GPanel.vue'
-import { Github, Linkedin, Instagram,Iconoir } from 'iconoir-vue'
+import { Github, Linkedin } from 'iconoir-vue'
 import {
   DeVuejsOriginalWordmark,
-  DeTailwindcssPlain,
   DeTypescriptOriginal,
   DeNuxtjsOriginal,
   DeJavascriptOriginal,
   DeHtml5PlainWordmark,
   DeGitPlainWordmark,
   DeDockerPlainWordmark,
-  DeUbuntuPlainWordmark,
   CoBrandAmazonAws,
-  DeJavaOriginalWordmark,
   DeBitbucketOriginalWordmark,
-  DeJiraOriginalWordmark,
   DeVuetifyOriginal,
   CoBrandLinux
 } from '@kalimahapps/vue-icons'
@@ -188,9 +183,9 @@ digital products.I am passionate about taking on new challenges and fostering in
 
 const stats = [
   {
-    number: 5,
+    number: 6,
     title: 'Years Experience',
-    suffix: '+'
+    suffix: ''
   },
   {
     number: 19,
